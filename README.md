@@ -81,7 +81,7 @@ docker build -t esay-wrf .
 - [官方文档](https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_V3/user_guide_V3.8/contents.html)
 
 - [官方GitHub](https://github.com/wrf-model/WRF/)
-- [气象家园](http://bbs.06climate.com/)
+- [气象家园论坛](http://bbs.06climate.com/)
 
 ## Acknowledgment
 
