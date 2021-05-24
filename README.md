@@ -2,7 +2,7 @@
 
 # Easy-WRF
 
-WRF（Weather Research and Forecasting Model）模式是由美国环境预测中心（NCEP）,美国国家大气研究中心（NCAR）等美国科研机构中心着手开发的一种统一的中尺度天气预报模式。
+WRF（Weather Research and Forecasting Model）模式是由美国环境预测中心（NCEP），美国国家大气研究中心（NCAR）等美国科研机构中心着手开发的一种统一的中尺度天气预报模式。
 WRF模式系统具有的可移植，易维护，可扩充，高效率，方便等特点，使其成为改进从云尺度到各种不同天气尺度的重要天气特征预报精度的工具。
 
 本项目是单节点建模运行的容器化WRF，主要用于教学演示和培训示例。
