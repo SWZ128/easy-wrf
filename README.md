@@ -34,8 +34,8 @@ docker images
 得到类似下方的输出
 
 ```shell
-REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-esay-wrf     latest    dc056ae5cf43   2 minutes age  1.6GB
+REPOSITORY        TAG       IMAGE ID       CREATED             SIZE
+swz128/easy-wrf   latest    2c04b5c62a0b   About an hour ago   1.6GB
 ```
 
 run
