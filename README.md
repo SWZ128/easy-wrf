@@ -9,7 +9,7 @@ WRF模式系统具有的可移植，易维护，可扩充，高效率，方便�
 
 ## Features
 
-- WPS + WRF (version 3.7.1)
+- WPS + WRF（version 3.7.1）
 - 简易部署（docker）
 - 优雅易用（Oh-my-zsh）
 - 精简小巧（镜像1.6GB左右）
