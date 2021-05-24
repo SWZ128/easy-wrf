@@ -41,13 +41,13 @@ swz128/easy-wrf   latest    2c04b5c62a0b   About an hour ago   1.6GB
 run
 
 ```shell
-docker run -v 需要挂载的本地目录:容器中的目录 -it --name test_001 esay-wrf
+docker run -v 需要挂载的本地目录:容器中的目录 -it --name test_001 swz128/esay-wrf
 ```
 
 例如这样（请将路径修改为自己的）
 
 ```shell
-docker run -v /Users/mac/wrf/wrf-data:/root/wrf-data -it --name test_001 esay-wrf
+docker run -v /Users/mac/wrf/wrf-data:/root/wrf-data -it --name test_001 swz128/esay-wrf
 ```
 
 现在就可以愉快地学习和使用了
