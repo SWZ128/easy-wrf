@@ -9,7 +9,7 @@ WRF模式系统具有的可移植，易维护，可扩充，高效率，方便�
 
 ## Features
 
-- WPS + WRF
+- WPS + WRF (version 3.7.1)
 - 简易部署（docker）
 - 优雅易用（Oh-my-zsh）
 - 精简小巧（镜像1GB左右）
@@ -52,14 +52,18 @@ docker run -v /Users/mac/wrf/wrf-data:/root/wrf-data -it --name test_001 esay-wr
 
 现在就可以愉快地学习和使用了
 
-当退出并停止容器后，请使用
+停止容器
+
+```shell
+docker stop test_001
+```
+
+当退出并停止容器后，请使用如下命令再次进入
 
 ```shell
 docker start test_001
 docker exec -it test_001 /bin/zsh
 ```
-
-再次进入
 
 ### 2.使用 docker build
 
@@ -79,7 +83,6 @@ docker build -t esay-wrf .
 ## Support
 
 - [官方文档](https://www2.mmm.ucar.edu/wrf/users/docs/user_guide_V3/user_guide_V3.8/contents.html)
-
 - [官方GitHub](https://github.com/wrf-model/WRF/)
 - [气象家园论坛](http://bbs.06climate.com/)
 
