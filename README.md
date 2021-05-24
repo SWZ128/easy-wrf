@@ -58,7 +58,7 @@ docker run -v /Users/mac/wrf/wrf-data:/root/wrf-data -it --name test_001 esay-wr
 docker stop test_001
 ```
 
-当退出并停止容器后，请使用如下命令再次进入
+当退出并停止容器后，可以使用如下命令再次进入
 
 ```shell
 docker start test_001
