@@ -12,7 +12,7 @@ WRF模式系统具有的可移植，易维护，可扩充，高效率，方便�
 - WPS + WRF (version 3.7.1)
 - 简易部署（docker）
 - 优雅易用（Oh-my-zsh）
-- 精简小巧（镜像1GB左右）
+- 精简小巧（镜像1.6GB左右）
 - 国内部署简易
 
 ## Installation & Usage
@@ -35,7 +35,7 @@ docker images
 
 ```shell
 REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
-esay-wrf     latest    dc056ae5cf43   2 minutes age  1.2GB
+esay-wrf     latest    dc056ae5cf43   2 minutes age  1.6GB
 ```
 
 run
